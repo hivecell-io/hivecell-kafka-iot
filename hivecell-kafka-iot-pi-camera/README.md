@@ -1,5 +1,28 @@
 # Hivecell-KafkaStreams-DeepVision
-**This repository contains examples of machine learning algorithms for computer vision tasks integrated into KafkaStreams application at the Edge, for ARM64 architecture.**
+
+**This repository contains examples of machine learning algorithms for computer vision tasks at Hivecell**
+
+Lets imagine situation that we need to run object detection network in cloud. We will have tons of cameras which will send data to the cloud where ML will process all those frames.
+This would require stable internet connection, high bandwidth, place to store raw data in the cloud and will cost a lot of money. 
+However there is another way.
+
+This is demo application that shows how object detection algorithms can be run at the edge and only detection result will be sent to cloud. 
+Thereby reducing network bandwidth between edge and cloud.
+
+![image](../images/simplified_architecture.png)
+
+All we need for that is to have at the edge Kafka cluster, Confluent Replicator and Confluent Mqtt Proxy.
+In this demo we used RaspberryPi Camera as the source, where we runs sample script which reads raw video stream from camera, split it into frames
+and using [paho-mqtt-client](https://pypi.org/project/paho-mqtt/) sends it to kafka topic on Hivecell.
+
+On the Hivecell we have Confluent Mqtt Proxy, which listen at 1883 port and simulate MqttBroker.
+Our stream read data from topic with raw frames, performs frame normalization and send it 
+either to NVidia Triton over http or run build in inference on CPU.
+After results are parsed application formats it to Json format and write to output topic. 
+From where data through Confluent Replicator replicated to the cloud. 
+
+On the cloud side we can now save this results for further processing. 
+
 
 List of algorithms:
  - CPU
