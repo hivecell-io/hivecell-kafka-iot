@@ -1,0 +1,17 @@
+[
+  {
+    "key": "l1r1",
+    "value": "{\"sensorId\":\"s1\",\"timestamp\":1585829099000,\"locationId\":\"l1r1\",\"temperature\":3.0,\"relativeHumidity\":8.33,\"pressure\":6.33,\"summerSimmerIndex\":4.01,\"heatIndex\":10.95,\"dewPoint\":-27.8,\"humIndex\":-2.2}",
+    "timestamp": 1585829099000
+  },
+  {
+    "key": "l2r2",
+    "value": "{\"sensorId\":\"s5\",\"timestamp\":1585829099000,\"locationId\":\"l2r2\",\"temperature\":34.0,\"relativeHumidity\":8.33,\"pressure\":6.33,\"summerSimmerIndex\":34.45,\"heatIndex\":31.45,\"dewPoint\":-4.58,\"humIndex\":30.86}",
+    "timestamp": 1585829099000
+  },
+  {
+    "key": "l3r3",
+    "value": "{\"sensorId\":\"s9\",\"timestamp\":1585829099000,\"locationId\":\"l3r3\",\"temperature\":3.0,\"relativeHumidity\":8.33,\"pressure\":6.33,\"summerSimmerIndex\":4.01,\"heatIndex\":10.95,\"dewPoint\":-27.8,\"humIndex\":-2.2}",
+    "timestamp": 1585829099000
+  }
+]

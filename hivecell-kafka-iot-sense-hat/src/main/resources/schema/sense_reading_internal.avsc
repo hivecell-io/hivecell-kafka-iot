@@ -1,0 +1,38 @@
+{
+  "namespace": "com.rickerlyman.iot.schema",
+  "type": "record",
+  "name": "SenseReadingInternal",
+  "version": "1",
+  "globalId": "1",
+  "root": "true",
+  "fields": [
+    {
+      "name": "sensorId",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "locationId",
+      "type": "string"
+    },
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "relativeHumidity",
+      "type": "float"
+    },
+    {
+      "name": "pressure",
+      "type": "float"
+    },
+    {
+      "name": "count",
+      "type": "int"
+    }
+  ]
+}

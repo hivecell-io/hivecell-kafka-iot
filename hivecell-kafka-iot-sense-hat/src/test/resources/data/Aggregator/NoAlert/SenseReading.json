@@ -1,0 +1,62 @@
+[
+  {
+    "key": "office/temperature",
+    "value": "s1,1585828810,1.5C,5.0%,12.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s5,1585828810,2.5C,5.0%,12.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s9,1585828810,3.0C,5.0%,12.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s1,1585829099,5.0C,10.0%,3.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s5,1585829099,3.0C,10.0%,3.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s9,1585829099,2.0C,10.0%,3.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s1,1585828920,2.5C,10.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s5,1585828920,3.5C,10.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s9,1585828920,4.0C,10.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s1,1585829170,1.50C,15.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s5,1585829170,1.50C,15.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s9,1585829170,1.0C,15.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s1,1585828990,5.0C,20.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s5,1585828990,3.0C,20.0%,4.0hPa"
+  },
+  {
+    "key": "office/temperature",
+    "value": "s9,1585828990,2.0C,20.0%,4.0hPa"
+  }
+]

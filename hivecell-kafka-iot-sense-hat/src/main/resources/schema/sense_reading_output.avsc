@@ -1,0 +1,50 @@
+{
+  "namespace": "com.rickerlyman.iot.schema",
+  "type": "record",
+  "name": "SenseReadingOutput",
+  "version": "1",
+  "globalId": "1",
+  "root": "true",
+  "fields": [
+    {
+      "name": "sensorId",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "locationId",
+      "type": "string"
+    },
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "relativeHumidity",
+      "type": "float"
+    },
+    {
+      "name": "pressure",
+      "type": "float"
+    },
+    {
+      "name": "summerSimmerIndex",
+      "type": "float"
+    },
+    {
+      "name": "heatIndex",
+      "type": "float"
+    },
+    {
+      "name": "dewPoint",
+      "type": "float"
+    },
+    {
+      "name": "humIndex",
+      "type": "float"
+    }
+  ]
+}
